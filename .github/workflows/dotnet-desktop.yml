@@ -10,9 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@main
       with:
-        dotnet-version: '4.7.x'
+        dotnet-version: '4.7.2'
     
     # dotnet build and publish
     - name: Build with dotnet
